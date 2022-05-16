@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+      .tr-fila{
+        height: 30px;
+      }
+    </style>
+</head>
+  <body>
+       <h1>Diferentes tablas en HTML</h1>
+
+       <p>1. Tabla con encabezado horizontal, 3 columnas, 2 filas.</p>
+    
+        <table border="2">
+        <thead>
+          <tr>
+            <th>Tipos de lineas</th>
+            <th>Tipos de energia</th>
+            <th>Tipos de texto</th>
+            
+          </tr>
+        </thead>
+          <tbody>
+            <tr>
+              <td> Ondulada </td>
+              <td> Termica </td>
+              <td>Drama </td>
+      
+          </tr>
+          <tr>
+
+            <td> Recta </td>
+            <td> Natural </td>
+            <td> Narrativa</td>
+
+          </tr>
+          
+
+        </tbody>
+    </table>
+         
+    <br>
+        <p> 2. Tabla con encabezado vertical, 5 columnas y 3 filas.</p>
+          
+        <table border="2">
+          <tbody>
+              <tr>
+                  <th>Colores </th>
+                     <td>Azul</td>
+                     <td>Negro 13</td>
+                     <td>Naranja</td>
+                     <td>Rojo </td>
+                     <td>Morado</td>
+              </tr>
+              <tr>
+                  <th>Sabores</th>
+                     <td>Acido</td>
+                     <td>Dulce</td>
+                     <td>Amargo</td>
+                     <td>Salado</td>
+                     <td>Sin Sabor</td>
+              </tr>
+              <tr>
+                  <th>Formas</th>
+                     <td> Cuadrado</td>
+                     <td> Circulo</td>
+                     <td>Triangulo</td>
+                     <td>Rectangular</td>
+                     <td>Ovalado</td>
+                     </p>
+              </tr>
+            </tbody>
+          </table>
+            <br>
+
+            <p> 3. Tabla con encabezado horizontal, 6 columnas y 3 filas.</p>
+            
+            <table border="2">
+              <tbody>
+                <tr>
+                  <td colspan="5">Estilos</td>
+                </tr>
+
+                <tr>
+                  <td colspan="5">Formas</td>
+                </tr>
+
+                <tr>
+                  <td colspan="1">Palabras</td>
+                  <td colspan="1">Expresion</td>
+                  <td colspan="0">Pal</td>
+                  <td colspan="0">Exp</td>
+
+                <tr>
+                 <td colspan="2">Vertical</td>
+                 <td colspan="2"> Horizontal</td>
+              
+
+                </tr>
+              </tbody>
+          </table>
+          <br>
+
+          <p> 4. Tabla con, 4 columnas y 3 filas.</p>
+
+          <table border="1">
+            <tbody>
+              <tr class="tr-fila">
+                <td rowspan="2">Uno</td>
+                <td colspan="5">Dos</td>
+              </tr>
+
+              <tr class="tr-fila">
+                <td rowspan="2" colspan="2">Uno</td>
+                <td rowspan="2" colspan="2">Tres</td>
+                <td rowspan="2">Cuatro</td>
+              </tr>
+
+              <tr class="tr-fila">
+                <td>Uno</td>
+               </tr>
+            </tbody>
+          </table>
+ </body>
+</html>
+
